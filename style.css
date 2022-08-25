@@ -1,0 +1,722 @@
+*{margin: 0; padding: 0;}
+ul{list-style: none;}
+a{text-decoration: none; color: #444444;}
+body{
+ font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
+ color: #444444;
+ font-size: 18px;
+ line-height: 28px;
+}
+
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+@font-face {
+  font-family: 'KOHIBaeumOTF';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/KOHIBaeumOTF.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*header*/
+#header{
+  /* width: 1920px; *//*바깥에 넓이 값 안줌*/
+  height: 171px;
+  background-color: #f6e4c2;
+}
+
+.header_inner{
+  width: 1320px;
+  height: 171px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.logo{
+  position: absolute;
+  display: block;
+  top: 30px;
+  left: 0;
+}
+
+.search{
+  display: inline-block;
+  position: absolute;
+  top: 41px;
+  left: 244px;
+  border: 1px solid #444a99;
+  border-radius: 50px;
+  background: #fff url(images/search.png) 90% 50% no-repeat;
+  color: #555;
+  font-size: 14px;
+  padding: 8px 90px 8px 19px;
+}
+
+
+.search:hover{
+  background-color: #d7ecf5;
+}
+
+.link{
+  font-size: 12px;
+  position: absolute;
+  top: 25px;
+  right: 0;
+}
+
+.link a{
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  background-color: #fbf2e1;
+  padding: 1px 14px;
+  margin-left: 10px;
+}
+
+.link a:hover{
+  background-color: #fff;
+  font-weight: bold;
+}
+
+/*nav*/
+.nav{
+  position: absolute;
+  width: 880px;
+  top: 132px;
+  left: 50%;
+  margin-left: -440px;
+}
+
+.nav li{
+  float: left;
+  width: 20%;
+  font-weight: 700;
+  text-align: center;
+}
+
+.nav li a:hover{
+  color: #444a99;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+.bolder{
+  color: #444a99;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+/*banner*/
+#banner{
+  width: 100%;
+  height: 351px;
+  background: url(images/sub02_main_banner.jpg) no-repeat center top;
+  background-size: cover;
+}
+
+/*wrap*/
+#wrap{
+  width: 1320px;
+  height: 1056px;
+  margin: 0 auto;
+  margin-bottom: 67px;
+}
+
+
+
+/*con1*/
+.con1{
+  width: 100%;
+  height: 350px;
+  margin: 102px 0 110px 0;
+}
+
+.con1 h1{
+  font-size: 36px;
+  margin-bottom: 36px;
+}
+
+.button1{
+  display: inline-block;
+  font-size: 20px;
+  color: #777;
+  padding: 18px 27px 22px 73px;
+  border-radius: 6px;
+  background: #ccc url(images/category_icon.png) no-repeat 20px 50%;
+}
+
+.button2{
+  display: inline-block;
+  font-size: 20px;
+  color: #777;
+  padding: 18px 52px 22px 79px;
+  border-radius: 6px;
+  background: #ebebeb url(images/location_icon1.png) no-repeat 20px 50%;
+}
+
+.button2:hover{
+  background-color: #ccc;
+}
+
+.category{
+  margin-top: 45px;
+  width: 1320px;
+}
+
+.category li{
+  width: 143px;
+  margin-right: 3px;
+  float: left;
+  text-align: center;
+}
+
+.margin1{
+  margin-right: 0;
+}
+
+.category p{
+  font-size: 20px;
+}
+
+.category li a:hover{
+  color: #444a99;
+  font-weight: bold;
+
+}
+
+.category li:hover img{
+  transform: scale(1.03, 1.03);
+}
+
+/*con2*/
+.con2{
+  width: 100%;
+  height: 595px;
+}
+
+.search2{
+  display: inline-block;
+  border: 1px solid #444a99;
+  border-radius: 20px;
+  background: #fff url(images/search.png) 5% 50% no-repeat;
+  color: #555;
+  font-size: 18px;
+  padding: 14px 470px 14px 60px;
+  margin-bottom: 28px;
+}
+
+.search2:hover{
+  background-color: #d7ecf5;
+}
+
+.con2 h4{
+  font-size: 18px;
+  margin-bottom: 32px;
+}
+
+.box1{
+  width: 100%;
+  height: 43px;
+  margin-bottom: 43px;
+}
+
+.left1 li{
+ float: left;
+}
+
+.left1{
+  float: left;
+  height: 51px;
+}
+
+.left1 li a{
+  display: inline-block;
+  background-color: #eeeeee;
+  border: 1px solid #cccccc;
+  padding: 6px 20px;
+  border-radius: 20px;
+  margin-right: 20px;
+  box-sizing: border-box;
+}
+
+.left1 li a:hover{
+  color: #fff;
+  background-color: rgb(189, 188, 188);
+}
+
+.right1{
+  float: right;
+  height: 51px;
+}
+
+.right1 a{
+  font-weight: bold;
+  padding: 14px 72px 14px 88px;
+  border: 1px solid #444a99;
+  border-radius: 10px;
+}
+
+.gps{
+  background: url(images/gps_icon.png) no-repeat 10% 50%;
+}
+
+.map{
+  background: url(images/map_icon.png) no-repeat 10% 50%;
+}
+
+.right1 a:hover{
+  background-color: #444a99;
+  color: #fff;
+}
+
+.s_onedayclass a{
+  background-color: #444a99;
+  color: #fff;
+  font-size: 24px;
+  padding: 10px 55px;
+  border-radius: 15px;
+  font-weight: 500;
+}
+
+.s_onedayclass{
+  margin-bottom: 48px;
+}
+
+.left2{
+  width: 330px;
+  height: 135px;
+  margin-right: 250px;
+  float: left;
+}
+
+.name{
+  font-size: 22px;
+  font-weight: bold;
+  float: left;
+  padding-top: 16px;
+}
+
+.location{
+  width: 330px;
+  height: 53px;
+  margin-bottom: 30px;
+}
+
+.location select{
+  width: 227px;
+  background-color: #fff;
+  display: inline-block;
+  border: 2px solid #ccc;
+  padding: 13px 24px 13px 24px;
+  border-radius: 10px;
+  float: right;
+  color: #444444;
+  font-size: 18px;
+  font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
+}
+
+.category2{
+  width: 330px;
+  height: 53px;
+  margin-bottom: 20px;
+}
+
+.category2 select{
+  width: 227px;
+  background-color: #fff;
+  display: inline-block;
+  border: 2px solid #ccc;
+  padding: 13px 24px 13px 24px;
+  border-radius: 10px;
+  float: right;
+  color: #444444;
+  font-size: 18px;
+  font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
+}
+
+.day{
+  width: 330px;
+  height: 53px;
+  margin-bottom: 30px;
+}
+
+.day select{
+  width: 227px;
+  background-color: #fff;
+  display: inline-block;
+  border: 2px solid #ccc;
+  padding: 13px 24px 13px 24px;
+  border-radius: 10px;
+  float: right;
+  color: #444444;
+  font-size: 18px;
+  font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
+}
+
+.box2{
+  width: 100%;
+  height: 135px;
+  margin-bottom: 90px;
+}
+
+.right2{
+  float: left;
+  width: 330px;
+  height: 135px;
+}
+
+.right2 input{
+  float: right;
+  color: #444444;
+  width: 175px;
+  background-color: #fff;
+  display: inline-block;
+  border: 2px solid #ccc;
+  padding: 12px 24px 12px 24px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
+}
+
+.time{
+  width: 330px;
+}
+
+.center{
+  width: 100%;
+  height: 60px;
+  position: relative;
+}
+
+.center p{
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -180px;
+}
+
+.center p a{
+  display: inline-block;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  margin-right: 30px;
+  font-weight: bold;
+}
+
+.reset{
+  padding: 14px 43px 14px 70px;
+  background: url(images/reset_icon.png) no-repeat 20% 50%;
+}
+
+.search3{
+  padding: 14px 50px;
+}
+
+.center p a:hover{
+  background-color: #444a99;
+  color: #fff;
+  border: 2px solid #444a99;
+}
+
+.line{
+  width: 100%;
+  height: 42px;
+  margin-bottom: 88px;
+}
+
+.line img{
+  display: block;
+  width: 100%;
+  height: 42px;
+}
+
+/*wrap2*/
+#wrap2{
+  width: 1320px;
+  height: 1436px;
+  margin: 0 auto;
+  padding-bottom: 120px;
+}
+
+
+
+/*con3*/
+.con3{
+  width:1320px; margin:0 auto;
+  height: 504px;
+  position: relative; /*기준*/
+  margin-top: 108px;
+  margin-bottom: 70px;
+  
+}
+
+.box3{
+  width: 100%;
+  height: 45px;
+}
+
+.left3{
+  float: left;
+}
+
+.right3{
+  float: right;
+}
+
+.right3 select{
+  width: 128px;
+  border: 1px solid #ddd;
+  font-size: 18px;
+  font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.class1{
+
+  position:relative;/*기준*/
+  width: 427px;
+  height: 500px;
+  float: left;
+  margin-right: 19px;
+}
+
+
+.overflowhidden{width:427px; height: 327px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.padding{padding-top:12px;}
+
+
+.margin2{
+  margin-right: 0;
+}
+
+.class_img{
+  /* position: relative; */
+  width: 427px;
+  height: 327px;
+  overflow: hidden;
+  margin-bottom: 12px;
+}
+
+.class_img img{
+  width: 427px;
+  height: 327px;
+  transition: all 0.6s;
+}
+
+.class_img:hover img{
+  transform: scale(1.2, 1.2);
+}
+
+
+.onedayclass{
+  position: absolute;
+  top: 16px;
+  left: 16px;
+}
+
+
+.hover{ position: absolute;
+top:0; right:0;}
+
+
+.heart{
+  position: absolute;
+  top: 16px; 
+  right: 16px;
+} 
+
+.heart_hover{
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  display: none;
+}
+
+.hover:hover img:first-child{
+  display: none;
+}
+
+.hover:hover img:last-child{
+  display: inline-block;
+}
+
+
+
+
+.p_right{
+  float: right;
+}
+
+.p_right p{
+float: left;
+margin-right: 4px;
+}
+
+.rate{
+  font-size: 15px;
+}
+
+.count a{
+  font-size: 15px;
+  color: #777777;
+}
+
+.class1_text{
+  margin-top: 10px;
+  margin-bottom: 14px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.p_right2{
+ text-align: right
+}
+
+
+.navy{
+  color: #444a99;
+  font-weight: 500;
+  margin-bottom: 14px;
+  font-size: 15px;
+}
+
+.before_sale{
+  margin-bottom: 13px;
+}
+
+.red{
+  color: #e91e63;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.line{
+  color: #999;
+  text-decoration-line: line-through;
+  font-size: 15px;
+}
+
+
+.price{
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.page{
+  height: 40px;
+  position: relative;
+}
+
+.page_inner{
+ position: absolute;
+ padding-top: 65px;
+ top: 0;
+ left: 50%;
+ margin-left: -154px;
+}
+
+.page_inner li{
+  float: left;
+  margin-right: 6px;
+}
+
+/*footer1*/
+#footer1{
+  width: 100%;
+  height: 54px;
+  background-color: #444a99;
+}
+
+.footer1_inner{
+  width: 1320px;
+  height: 54px;
+  margin: 0 auto;
+}
+
+.footer1_inner p{
+  float: left;
+  margin: 14px 36px 0 0;
+}
+
+.footer1_inner p a{
+  color: #fff;
+  font-size: 17px;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.footer1_inner p a:hover{
+  text-decoration: underline 1px #fff;
+}
+
+
+/*footer2*/
+#footer2{
+  width: 100%;
+  height: 277px;
+  background-color: #949494;
+}
+
+.footer2_inner{
+  width: 1320px;
+  margin: 0 auto;
+}
+
+.footer_left{
+  width: 770px;
+  float: left;
+}
+
+.footer_logo{
+  float: left;
+  margin: 27px 62px 0 0;
+}
+
+.footer_p{
+  float: left;
+  color: #ddd;
+  margin-top: 42px;
+  font-size: 17px;
+}
+
+.footer_p h4{
+  margin-bottom: 32px;
+  font-size: 19px;
+}
+
+.footer_right{
+  width: 230px; /*너비때문*/
+  float: right;
+  text-align: right;
+}
+
+.footer_right ul li{
+  float: left;
+  margin: 41px 20px 0 0;
+}
+
+.margin4{
+  margin-right: 0;
+}
+
+.footer_right img{
+  opacity: 0.4;
+}
+
+.footer_right ul li:hover img{
+  opacity: 1;
+}
+
+/*top버튼*/
+.button{
+  position: fixed;/*fixed의 기준은 창크기가 기준이 됨*/
+  right: 50px;
+  bottom: 50px;
+  z-index: 100; /*다른 포지션 박스랑 겹쳤을 때 위로 올라오도록 높게 줌!*/
+}
